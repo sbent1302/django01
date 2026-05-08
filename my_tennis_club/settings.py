@@ -120,6 +120,8 @@ STATIC_ROOT = BASE_DIR / 'productionfiles'
 
 STATIC_URL = 'static/'
 
+# STATICFILES_ROOT = BASE_DIR / 'productionfiles'
+
 #Add this for global static files, otherwise it will only look for static files in the app folders:
 STATICFILES_DIRS = [
     BASE_DIR / 'mystaticfiles'
